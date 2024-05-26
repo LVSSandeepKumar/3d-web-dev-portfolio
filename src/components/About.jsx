@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ServiceCard from "./ui/ServiceCard";
+import { ServiceCard } from "./ui";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant} from "../utils/motion";

@@ -115,7 +115,7 @@ import {
   ];
   
   const experiences = [
-    {
+    /*{
       title: "React.js Developer",
       company_name: "Starbucks",
       icon: starbucks,
@@ -166,7 +166,18 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    },*/
+    {
+      title: "Full Stack Developer Internship",
+      company_name: "Next24 Technologies",
+      icon: 'https://media.licdn.com/dms/image/C560BAQG6BSo6-LKsyQ/company-logo_200_200/0/1679772461239?e=2147483647&v=beta&t=pUyflhb4QyKHfhd8XXNv-xj4QcpauDohqU_S0FUdg8M',
+      iconBg: "#ffffff",
+      date: "Mar 2024 - May 2024",
+      points: [
+        "Developed full stack web applications using NextJS,MongoDB,ExpressJS and NodeJS",
+        "Implemented Responsive Web designs and cross-browser compatibility",
+      ]
+    }
   ];
   
   const testimonials = [
