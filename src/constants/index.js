@@ -112,6 +112,10 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "Next JS",
+      icon: 'https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png'
+    }
   ];
   
   const experiences = [
