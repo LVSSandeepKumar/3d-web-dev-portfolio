@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { fadeIn } from "../../utils/motion";
 import { github } from "../../assets";
 
-const ProjectCard = ({ index, name, description, tags, image, project_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
         <Tilt 
