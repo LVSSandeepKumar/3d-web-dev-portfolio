@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -15,14 +16,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    nikelandingpage,
+    tictactoe,
+    weatherapp
   } from "../assets";
   
   export const navLinks = [
@@ -213,67 +210,55 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Nike Landing Page",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Dynamic Nike Landing Page crafted using React, Vite and Tailwind CSS, featuring responsive design, seamless navigation and engaging User Experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "vite",
+          color: "green-text-gradient"
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: nikelandingpage,
+      source_code_link: "https://github.com/LVSSandeepKumar/Nike-LandingPage",
     },
     {
-      name: "Job IT",
+      name: "Tic Tac Toe Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An interactive TicTacToe game developed with React, showcasing real time updates, sleek UI, responsive and engaging gameplay experience.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: tictactoe,
+      source_code_link: "https://github.com/LVSSandeepKumar/TicTacToe",
+    },
+    {
+      name: "Weather App",
+      description:
+      "A responsive weather application built with React and Open Weather API, offering real-time forecasts, intuitive design and seamless User Experience.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "rest-api",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/LVSSandeepKumar/weather-app",
     },
   ];
   
