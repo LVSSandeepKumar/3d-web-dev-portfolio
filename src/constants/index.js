@@ -19,7 +19,8 @@ import {
     threejs,
     nikelandingpage,
     tictactoe,
-    weatherapp
+    weatherapp,
+    nextjobs
   } from "../assets";
   
   export const navLinks = [
@@ -232,6 +233,26 @@ import {
       ],
       image: weatherapp,
       source_code_link: "https://github.com/LVSSandeepKumar/weather-app",
+    },
+    {
+      name: "Next Jobs",
+      description:"A full-stack job board app built with Next.js, Prisma, and PostgreSQL, enabling seamless job posting, application, and user management features.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: nextjobs,
+      source_code_link: "https://github.com/LVSSandeepKumar/nextjs-job-board-clone",
     },
   ];
   

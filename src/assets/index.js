@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 import nikelandingpage from "./nikelandingpage.png";
 import tictactoe from "./tictactoe.png";
 import weatherapp from "./weatherapp.png";
+import nextjobs from "./nextjobs.png";
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   tesla,
   nikelandingpage,
   tictactoe,
-  weatherapp
+  weatherapp,
+  nextjobs
 };
