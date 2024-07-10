@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import {
     mobile,
     backend,
@@ -20,7 +19,8 @@ import {
     nikelandingpage,
     tictactoe,
     weatherapp,
-    nextjobs
+    nextjobs,
+    fitfusion
   } from "../assets";
   
   export const navLinks = [
@@ -253,6 +253,26 @@ import {
       ],
       image: nextjobs,
       source_code_link: "https://github.com/LVSSandeepKumar/nextjs-job-board-clone",
+    },
+    {
+      name: "Fit-Fusion AI",
+      description:"Fit-Fusion AI, an innovative application generating personalized workout and diet plans using advanced AI algorithms for optimal fitness",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gemini AI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: fitfusion,
+      source_code_link: "https://github.com/LVSSandeepKumar/Fit-Fusion-AI",
     },
   ];
   

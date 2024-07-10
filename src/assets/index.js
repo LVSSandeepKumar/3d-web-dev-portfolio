@@ -30,6 +30,7 @@ import nikelandingpage from "./nikelandingpage.png";
 import tictactoe from "./tictactoe.png";
 import weatherapp from "./weatherapp.png";
 import nextjobs from "./nextjobs.png";
+import fitfusion from "./fit-fusion-ai.png";
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   nikelandingpage,
   tictactoe,
   weatherapp,
-  nextjobs
+  nextjobs,
+  fitfusion
 };
