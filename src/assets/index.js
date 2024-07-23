@@ -31,6 +31,7 @@ import tictactoe from "./tictactoe.png";
 import weatherapp from "./weatherapp.png";
 import nextjobs from "./nextjobs.png";
 import fitfusion from "./fit-fusion-ai.png";
+import tweetsphere from "./tweetsphere.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   tictactoe,
   weatherapp,
   nextjobs,
-  fitfusion
+  fitfusion,
+  tweetsphere
 };

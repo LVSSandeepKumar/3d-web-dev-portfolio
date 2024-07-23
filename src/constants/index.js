@@ -20,7 +20,8 @@ import {
     tictactoe,
     weatherapp,
     nextjobs,
-    fitfusion
+    fitfusion,
+    tweetsphere
   } from "../assets";
   
   export const navLinks = [
@@ -273,6 +274,26 @@ import {
       ],
       image: fitfusion,
       source_code_link: "https://github.com/LVSSandeepKumar/Fit-Fusion-AI",
+    },
+    {
+      name: "Tweet Sphere",
+      description:"Tweet Sphere, a mERN stack interactive social media application built with authentication, interactive features and a seamless UI/UX",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: tweetsphere,
+      source_code_link: "https://github.com/LVSSandeepKumar/Tweet-Sphere",
     },
   ];
   
