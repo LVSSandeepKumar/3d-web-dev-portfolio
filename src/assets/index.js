@@ -32,6 +32,7 @@ import weatherapp from "./weatherapp.png";
 import nextjobs from "./nextjobs.png";
 import fitfusion from "./fit-fusion-ai.png";
 import tweetsphere from "./tweetsphere.png";
+import flixify from "./flixify.png";
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   weatherapp,
   nextjobs,
   fitfusion,
-  tweetsphere
+  tweetsphere,
+  flixify
 };

@@ -21,7 +21,8 @@ import {
     weatherapp,
     nextjobs,
     fitfusion,
-    tweetsphere
+    tweetsphere,
+    flixify
   } from "../assets";
   
   export const navLinks = [
@@ -277,7 +278,7 @@ import {
     },
     {
       name: "Tweet Sphere",
-      description:"Tweet Sphere, a mERN stack interactive social media application built with authentication, interactive features and a seamless UI/UX",
+      description:"Tweet Sphere, a MERN stack interactive social media application built with authentication, interactive features and a seamless UI/UX",
       tags: [
         {
           name: "React JS",
@@ -294,6 +295,26 @@ import {
       ],
       image: tweetsphere,
       source_code_link: "https://github.com/LVSSandeepKumar/Tweet-Sphere",
+    },
+    {
+      name: "Flixify",
+      description:"Tweet Sphere, a MERN stack netflix clone application built with stunning visuals, effortless video streaming ability and personal search history.",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: flixify,
+      source_code_link: "https://github.com/LVSSandeepKumar/Flixify-Netflix_Clone",
     },
   ];
   
