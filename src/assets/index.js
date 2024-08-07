@@ -33,6 +33,7 @@ import nextjobs from "./nextjobs.png";
 import fitfusion from "./fit-fusion-ai.png";
 import tweetsphere from "./tweetsphere.png";
 import flixify from "./flixify.png";
+import mernchatapp from "./mern-chat-app.png"; 
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   nextjobs,
   fitfusion,
   tweetsphere,
-  flixify
+  flixify,
+  mernchatapp
 };

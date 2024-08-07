@@ -22,7 +22,8 @@ import {
     nextjobs,
     fitfusion,
     tweetsphere,
-    flixify
+    flixify,
+    mernchatapp
   } from "../assets";
   
   export const navLinks = [
@@ -315,6 +316,26 @@ import {
       ],
       image: flixify,
       source_code_link: "https://github.com/LVSSandeepKumar/Flixify-Netflix_Clone",
+    },
+    {
+      name: "MERN Chat App",
+      description:"MERN Chat App, A simple, sleek and modern chat application with real time message delivery and updates.",
+      tags: [
+        {
+          name: "React JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: mernchatapp,
+      source_code_link: "https://github.com/LVSSandeepKumar/mern-chat-app",
     },
   ];
   
