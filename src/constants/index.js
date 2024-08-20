@@ -23,7 +23,8 @@ import {
     fitfusion,
     tweetsphere,
     flixify,
-    mernchatapp
+    mernchatapp,
+    feedbackwidget
   } from "../assets";
   
   export const navLinks = [
@@ -336,6 +337,26 @@ import {
       ],
       image: mernchatapp,
       source_code_link: "https://github.com/LVSSandeepKumar/mern-chat-app",
+    },
+    {
+      name: "Feedback Widget",
+      description:"Feedback widget, a SAAS application built to allow users to fetch feedbacks for their applications easily.",
+      tags: [
+        {
+          name: "Next JS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Postgre SQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Drizzle ORM",
+          color: "pink-text-gradient"
+        }
+      ],
+      image: feedbackwidget,
+      source_code_link: "https://github.com/LVSSandeepKumar/saas-feedback-widget",
     },
   ];
   
